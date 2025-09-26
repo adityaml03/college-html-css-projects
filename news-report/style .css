@@ -1,0 +1,56 @@
+body{
+    background: #f5f5dc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    min-height: 100vh;      
+    margin: 0;
+    overflow:hidden;
+}
+
+h1{
+    font-family:HoloLens MDL2 Assets;
+    font-size:25px;
+    font-weight:bold;
+    text-align: center;
+    color:#14357c
+}
+.img{
+    display: block;
+    width:280px;
+    max-height:250px;
+    margin: 0 auto;
+    height: auto;    
+}
+
+.article-box{
+    background-color:#ffffff;
+    width:380px;
+    height:620px;
+    padding:18px;
+    margin:20px auto;
+    border:2px solid #efe7e7;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px #00000040;
+    text-align: left;
+}
+
+.news-data{
+    font-family:rockwell;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.news-description{
+    font-family:rockwell;
+    font-size:16px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:Copperplate Gothic Light;
+}

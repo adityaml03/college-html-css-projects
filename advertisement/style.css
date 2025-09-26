@@ -1,0 +1,65 @@
+body{
+    background:  #6F4E37;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size:30px;
+    color:#6b2710;
+}
+
+
+#card{
+    background-color:#e9cb9f;
+    border:5px solid #9c763a;
+    border-radius:15px;
+    margin:20px auto;
+    padding:30px;
+    width:350px;
+    text-align:center;
+    box-shadow: 0 15px 25px #00000059;
+
+}
+#product-image{
+    width:250px;
+    height:250px;
+}
+
+#buy{
+    background-color:#5e3305b8;
+    color:#f4bc67;
+    font-family: Gabriola ;
+    font-size:22px;
+    font-weight:bold;
+    padding: 15px 30px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:background 0.3s;
+}
+
+#buy:hover{
+    background-color: #e2b699;
+}
+
+.content{
+    font-family:Gabriola;
+    font-size:25px;
+    font-weight:bold;
+    color:#191717;
+    margin: 5px 0;
+}
+
+footer {
+    color:#e9cb9f;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:Copperplate Gothic Light;
+}

@@ -1,0 +1,35 @@
+body{
+    background:#6C5B7B;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+.card{
+    background-color:#F0EBEB;
+    border:2px solid black;
+    border-radius:15px;
+    margin:20px auto;
+    padding:20px;
+    width:400px;
+    text-align:center;
+    box-shadow: #00000040 0px 54px 55px, #0000001f 0px -12px 30px, #0000001f 0px 4px 6px, #0000002b 0px 12px 13px, #00000017 0px -3px 5px;
+}
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+
+h1{
+    font-family:Franklin Gothic Medium;
+    font-size:25px;
+    text-align: center;
+}
+
+.content{
+    font-family: cursive;
+    font-size:15px;
+    text-align: center;
+    color:#555555;
+}

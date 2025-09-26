@@ -1,0 +1,74 @@
+body{
+    background:linear-gradient(to right,#2A7B9B,#57C785);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.box{
+    background-color:white;
+    border-radius:15px;
+    margin:20px auto;
+    padding:30px;
+    width:300px;
+    text-align:center;
+    box-shadow: 0 15px 25px #00000059;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.forgot-password {
+    color:black;  
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+
+.img{
+    width:180px;
+    height:180px;
+}
+
+button{
+    background:linear-gradient(to right,#2A7B9B,#57C785);
+    width:95%;
+    padding:15px;
+    margin-top:20px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: background 0.3s;
+
+}
+button:hover{
+    background: linear-gradient(to right, #57C785, #2A7B9B);
+    transform: scale(1.05);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    margin-bottom: 15px;
+    padding:10px;
+    border: 2px solid #0a0a0a;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #57C785;   
+    box-shadow: 0 0 5px #57C785; 
+    outline: none; 
+}
+
